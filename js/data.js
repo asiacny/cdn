@@ -417,11 +417,12 @@ function html_xr(data_item){
     }
     console.log("各种接口定制，详询api#ml.mk  #=@","","","（" + data_all['title'] + "）加载完成", "耗时:" + (performance.now() - runtime).toFixed(2) + "ms", "总耗时:" + performance.now().toFixed(2) + "ms");
     ii++;
+    console.log(ii);
     if(ii>33){
       var now=new Date();
       var runtime2 = performance.now();
       $(".nano").nanoScroller();
-      console.log("各种接口定制，详询api#ml.mk  #=@","","","滚动条样式加载完成","耗时:" + (performance.now() - runtime2).toFixed(2) + "ms", "总耗时:" + performance.now().toFixed(2) + "ms");
+      console.log("各种接口定制，详询api#ml.mk  #=@","","","","滚动条样式加载完成","耗时:" + (performance.now() - runtime2).toFixed(2) + "ms", "总耗时:" + performance.now().toFixed(2) + "ms");
     }
   })
 };
