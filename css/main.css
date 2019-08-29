@@ -169,141 +169,141 @@ body {
 
 .bg-36kr {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -10px -57px;
+    background: url('img/css.png') -10px -57px;
 }
 .bg-163 {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -54px -57px;
+    background: url('img/css.png') -54px -57px;
 }
 .bg-acfun {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -116px -10px;
+    background: url('img/css.png') -141px -10px;
 }
 .bg-autohome {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -116px -54px;
+    background: url('img/css.png') -141px -54px;
 }
 .bg-baidu {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -10px -101px;
-}
-.bg-chiphell {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -54px -101px;
-}
-.bg-chouti {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -98px -101px;
-}
-.bg-cnbeta {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -160px -10px;
-}
-.bg-douban {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -160px -54px;
-}
-.bg-douyin {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -160px -98px;
-}
-.bg-guokr {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -10px -145px;
-}
-.bg-hacpai {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -54px -145px;
-}
-.bg-huxiu {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -98px -145px;
-}
-.bg-ithome {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -142px -145px;
-}
-.bg-jandan {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -204px -10px;
-}
-.bg-logo {
-    width: 86px; height: 27px;
-    background: url('img/css.png?20190830') -10px -10px;
-}
-.bg-mop {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -204px -54px;
-}
-.bg-nytimes {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -204px -98px;
-}
-.bg-solidot {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -204px -142px;
-}
-.bg-thepaper {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -10px -189px;
-}
-.bg-toutiao {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -54px -189px;
-}
-.bg-v2ex {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -98px -189px;
-}
-.bg-weibo {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -142px -189px;
-}
-.bg-zhihu {
-    width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -186px -189px;
+    background: url('img/css.png') -10px -101px;
 }
 .bg-bilibili {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -248px -10px;
+    background: url('img/css.png') -54px -101px;
 }
 .bg-bjnews {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -248px -54px;
+    background: url('img/css.png') -98px -101px;
 }
 .bg-cctv {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -248px -98px;
+    background: url('img/css.png') -185px -10px;
+}
+.bg-chiphell {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -185px -54px;
+}
+.bg-chouti {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -185px -98px;
+}
+.bg-cnbeta {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -10px -145px;
+}
+.bg-douban {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -54px -145px;
+}
+.bg-douyin {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -98px -145px;
+}
+.bg-guokr {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -142px -145px;
+}
+.bg-hacpai {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -229px -10px;
 }
 .bg-hostlog {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -248px -142px;
+    background: url('img/css.png') -229px -54px;
+}
+.bg-huxiu {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -229px -98px;
+}
+.bg-ithome {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -229px -142px;
 }
 .bg-itunes {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -248px -186px;
+    background: url('img/css.png') -10px -189px;
+}
+.bg-jandan {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -54px -189px;
+}
+.bg-logo {
+    width: 111px; height: 27px;
+    background: url('img/css.png') -10px -10px;
+}
+.bg-mop {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -98px -189px;
+}
+.bg-nytimes {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -142px -189px;
 }
 .bg-sina {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -10px -233px;
+    background: url('img/css.png') -186px -189px;
 }
 .bg-smzdm {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -54px -233px;
+    background: url('img/css.png') -273px -10px;
+}
+.bg-solidot {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -273px -54px;
 }
 .bg-songshuhui {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -98px -233px;
+    background: url('img/css.png') -273px -98px;
+}
+.bg-thepaper {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -273px -142px;
 }
 .bg-tianya {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -142px -233px;
+    background: url('img/css.png') -273px -186px;
+}
+.bg-toutiao {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -10px -233px;
+}
+.bg-v2ex {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -54px -233px;
+}
+.bg-weibo {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -98px -233px;
 }
 .bg-weixin {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -186px -233px;
+    background: url('img/css.png') -142px -233px;
 }
 .bg-zaobao {
     width: 24px; height: 24px;
-    background: url('img/css.png?20190830') -230px -233px;
+    background: url('img/css.png') -186px -233px;
+}
+.bg-zhihu {
+    width: 24px; height: 24px;
+    background: url('img/css.png') -230px -233px;
 }
