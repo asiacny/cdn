@@ -418,10 +418,10 @@ function html_xr(data_item){
     console.log("各种接口定制，详询api#ml.mk  #=@","","","（" + data_all['title'] + "）加载完成", "耗时:" + (performance.now() - runtime).toFixed(2) + "ms", "总耗时:" + performance.now().toFixed(2) + "ms");
     ii++;
     if(ii>33){
-      var now=new Date();
-      var runtime = performance.now();
+      var now2=new Date();
+      var runtime2 = performance.now2();
       $(".nano").nanoScroller();
-      console.log("滚动条样式加载完成","耗时:" + (performance.now() - runtime).toFixed(2) + "ms");
+      console.log("滚动条样式加载完成","耗时:" + (performance.now2() - runtime2).toFixed(2) + "ms");
     }
   })
 };
