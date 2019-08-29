@@ -415,10 +415,15 @@ function html_xr(data_item){
         }
       }
     }
+    ii++;
+    if(ii>33){
+      $(".nano").nanoScroller();
+    }
     console.log("各种接口定制，详询api#ml.mk  #=@","","","（" + data_all['title'] + "）加载完成", "耗时:" + (performance.now() - runtime).toFixed(2) + "ms", "总耗时:" + performance.now().toFixed(2) + "ms");
   })
 };
 
+ii=0;
 html_xr('baidu_now');
 html_xr('weibo_realtimehot');
 html_xr('weixin_hot');
