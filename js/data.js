@@ -419,9 +419,9 @@ function html_xr(data_item){
     ii++;
     if(ii>33){
       var now=new Date();
-      var runtime = performance.now();
+      var runtime2 = performance.now();
       $(".nano").nanoScroller();
-      console.log("滚动条样式加载完成","耗时:" + (performance.now() - runtime).toFixed(2) + "ms");
+      console.log("滚动条样式加载完成","耗时:" + (performance.now() - runtime2).toFixed(2) + "ms");
     }
   })
 };
