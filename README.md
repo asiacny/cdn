@@ -1,3 +1,2 @@
 # cdn
-
 Static file
