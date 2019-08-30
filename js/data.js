@@ -403,13 +403,13 @@ function html_xr(data_item){
           btag = ">"
         }
         if(data_num >= 10000){
-          var tag = "<li><a href=\"" + data_url + atag + data_name + "</a><span style=\"display:block;float:right;\"" + btag + Math.round(data_num / 10000) + "万" + "</span></li>";
+          var tag = "<li><a style=\"color:#555555;\" href=\"" + data_url + atag + data_name + "</a><span style=\"display:block;float:right;\"" + btag + Math.round(data_num / 10000) + "万" + "</span></li>";
           document.getElementById(id_content).insertAdjacentHTML("beforeEnd",tag);
         }else if(data_num){
-          var tag = "<li><a href=\"" + data_url + atag + data_name + "</a><span style=\"display:block;float:right;\"" + btag + data_num + "</span></li>";
+          var tag = "<li><a style=\"color:#555555;\" href=\"" + data_url + atag + data_name + "</a><span style=\"display:block;float:right;\"" + btag + data_num + "</span></li>";
           document.getElementById(id_content).insertAdjacentHTML("beforeEnd",tag);
         }else{
-          var tag = "<li><a href=\"" + data_url + atag + data_name + "</a></li>";
+          var tag = "<li><a style=\"color:#555555;\" href=\"" + data_url + atag + data_name + "</a></li>";
           document.getElementById(id_content).insertAdjacentHTML("beforeEnd",tag);
         }
       }
@@ -511,7 +511,7 @@ function search(cc,str){
               var data_tag1 = data_all['data'][i]['tag1'];
               var data_tag2 = data_all['data'][i]['tag2'];
               var data_tag3 = data_all['data'][i]['tag3'];
-              var tag = "<li><a href=\"" + data_url + "\" target=\"_blank\" title=\"" + data_tag1 + "\">" + data_name + "</a><a style=\"display:block;float:right;text-align:right;\" href=\""+data_url+"\" target=\"_blank\" title=\"" + data_tag3 + "\">" + data_genres + "</a><a style=\"display:block;float:right;text-align:right;margin: 0px 10px 0px 0px;\" href=\""+data_url+"\" target=\"_blank\" title=\"" + data_tag2 + "\">" + price + "</a></li>";
+              var tag = "<li><a style=\"color:#555555;\" href=\"" + data_url + "\" target=\"_blank\" title=\"" + data_tag1 + "\">" + data_name + "</a><a style=\"display:block;float:right;color:#555555;text-align:right;\" href=\""+data_url+"\" target=\"_blank\" title=\"" + data_tag3 + "\">" + data_genres + "</a><a style=\"display:block;float:right;color:#555555;text-align:right;margin: 0px 10px 0px 0px;\" href=\""+data_url+"\" target=\"_blank\" title=\"" + data_tag2 + "\">" + price + "</a></li>";
               document.getElementById(id_content).insertAdjacentHTML("beforeEnd",tag);
             }
           }
