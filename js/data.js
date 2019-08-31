@@ -523,7 +523,6 @@ function search(cc,str){
   })
 };
 
-
 function font_weight(name){
   if(name == "bold"){
     var arr = document.getElementsByTagName('ol');
@@ -537,4 +536,16 @@ function font_weight(name){
       arr[i].style='font-weight:normal';
     }
   }	
+};
+
+function bgcolor(name){
+  if(name == "lightgray"){
+    var arr = document.getElementsByTagName('body')[0].style.background='#f2f2f2';
+  }
+  if(name == "lightblue"){
+    var arr = document.getElementsByTagName('body')[0].style.background='#badef1';
+  }
+  if(name == "darkblue"){
+    var arr = document.getElementsByTagName('body')[0].style.background='#041221';
+  }
 };

@@ -7,6 +7,18 @@
 .nano>.nano-pane>.nano-slider{background:#2D2E2F;/* rgba(0, 0, 0, 0.68); */position:relative;margin:0 0;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
 .nano-pane.active,.nano-pane.flashed,.nano:hover>.nano-pane{visibility:visible\9;opacity:.99}
 
+.foot-line
+{
+    display:inline-block;
+    width:120px;
+    border-top:2px solid #dbdbdb;
+    vertical-align:5px;  
+}
+
+.navbar-line {
+  border-bottom: 2px solid #dbdbdb;
+}
+
 .section {
   padding: 1.5rem 2rem;
 }
