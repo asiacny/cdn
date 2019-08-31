@@ -3,7 +3,7 @@
 .nano>.nano-content:focus{outline:thin dotted}
 .nano>.nano-content::-webkit-scrollbar{display:none}
 .has-scrollbar>.nano-content::-webkit-scrollbar{display:block}
-.nano>.nano-pane{/* background:gray; */position:absolute;width:5px;right:0;top:0;bottom:0;visibility:hidden\9;opacity:.01;-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.nano>.nano-pane{/* background:gray; */position:absolute;width:3px;right:0;top:0;bottom:0;visibility:hidden\9;opacity:.01;-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
 .nano>.nano-pane>.nano-slider{background:#2D2E2F;/* rgba(0, 0, 0, 0.68); */position:relative;margin:0 0;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
 .nano-pane.active,.nano-pane.flashed,.nano:hover>.nano-pane{visibility:visible\9;opacity:.99}
 
