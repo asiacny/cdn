@@ -461,6 +461,13 @@ html_xr('huxiu');
 html_xr('itunes_free_cn');
 html_xr('itunes_free_us');
 
+$(window).on('load', function() {
+    $(".mobile-inner-header-icon").click(function() {
+        $(this).toggleClass("mobile-inner-header-icon-click");
+        $(".mobile-inner-nav").slideToggle(250);
+    });
+});
+	
 function search(cc,str){
   var now=new Date();
   var runtime = performance.now();
